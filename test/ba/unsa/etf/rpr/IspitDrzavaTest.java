@@ -1,10 +1,11 @@
-/*package ba.unsa.etf.rpr;
+package ba.unsa.etf.rpr;
 
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class IspitDrzavaTest {
+
+/*class IspitDrzavaTest {
     @Test
     void testDrzava() {
         Grad paris = new Grad(1, "Paris", 2206488, null);
@@ -31,4 +32,7 @@ class IspitDrzavaTest {
         assertEquals("Paris", francuska.getNajveciGrad().getNaziv());
     }
 
-}*/
+
+}
+
+ */

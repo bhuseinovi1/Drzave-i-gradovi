@@ -1,5 +1,6 @@
 package ba.unsa.etf.rpr;
 
+import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -14,8 +15,13 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.stage.Stage;
+import net.sf.jasperreports.engine.JRException;
 
+import java.beans.XMLDecoder;
+import java.beans.XMLEncoder;
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Optional;
 
@@ -27,7 +33,10 @@ public class GlavnaController {
     public TableColumn colGradId;
     public TableColumn colGradNaziv;
     public TableColumn colGradStanovnika;
+    public TableColumn colGradNadmorska;
     public TableColumn<Grad,String> colGradDrzava;
+    public TableColumn colGradZagadjenost;
+    public TableColumn<Grad,Integer> colBrojBolnica;
     private GeografijaDAO dao;
     private ObservableList<Grad> listGradovi;
 
@@ -42,6 +51,9 @@ public class GlavnaController {
         colGradId.setCellValueFactory(new PropertyValueFactory("id"));
         colGradNaziv.setCellValueFactory(new PropertyValueFactory("naziv"));
         colGradStanovnika.setCellValueFactory(new PropertyValueFactory("brojStanovnika"));
+        colGradNadmorska.setCellValueFactory(new PropertyValueFactory("nadmorskaVisina"));
+        colGradZagadjenost.setCellValueFactory(new PropertyValueFactory("zagadjenost"));
+        colBrojBolnica.setCellValueFactory(data -> new SimpleIntegerProperty(data.getValue().brojBolnica()).asObject());
         colGradDrzava.setCellValueFactory(data -> new SimpleStringProperty(data.getValue().getDrzava().getNaziv()));
     }
 
@@ -50,7 +62,8 @@ public class GlavnaController {
         Parent root = null;
         try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/grad.fxml"));
-            GradController gradController = new GradController(null, dao.drzave());
+            //GradController gradController = new GradController(null, dao.drzave());
+            GradController gradController = new GradController(null, dao.drzave(),dao.gradovi());
             loader.setController(gradController);
             root = loader.load();
             stage.setTitle("Grad");
@@ -104,7 +117,8 @@ public class GlavnaController {
         Parent root = null;
         try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/grad.fxml"));
-            GradController gradController = new GradController(grad, dao.drzave());
+            //GradController gradController = new GradController(grad, dao.drzave());
+            GradController gradController = new GradController(grad, dao.drzave(),dao.gradovi());
             loader.setController(gradController);
             root = loader.load();
             stage.setTitle("Grad");
@@ -147,5 +161,36 @@ public class GlavnaController {
         File dbfile = new File("baza.db");
         dbfile.delete();
         dao = GeografijaDAO.getInstance();
+    }
+
+    public void actionIzvjestaj(ActionEvent actionEvent) {
+        try {
+            new Izvjestaj().showReport(dao.getConn());
+        } catch (JRException e1) {
+            e1.printStackTrace();
+        }
+    }
+
+    public void actionZapisi(ActionEvent actionEvent) {
+        try {
+            Geografija geografija = new Geografija(dao.drzave(),dao.gradovi());
+            XMLEncoder izlaz = new XMLEncoder(new FileOutputStream("geografija.xml"));
+            izlaz.writeObject(geografija);
+            izlaz.close();
+        } catch(Exception e) {
+            System.out.println("Greška: "+e);
+        }
+    }
+
+    public Geografija actionUcitaj() {
+        Geografija geografija = null;
+        try {
+            XMLDecoder ulaz = new XMLDecoder(new FileInputStream("geografija.xml"));
+            geografija = (Geografija) ulaz.readObject();
+            ulaz.close();
+        } catch(Exception e) {
+            System.out.println("Greška: "+e);
+        }
+        return geografija;
     }
 }

@@ -7,12 +7,17 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.util.ArrayList;
+import java.util.Locale;
+import java.util.ResourceBundle;
 import java.util.Scanner;
 
 public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
+        //ResourceBundle bundle = ResourceBundle.getBundle("Translate");
+        //FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/glavna.fxml"),bundle);
+
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/glavna.fxml"));
         GlavnaController ctrl = new GlavnaController();
         loader.setController(ctrl);

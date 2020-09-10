@@ -1,4 +1,4 @@
-/*package ba.unsa.etf.rpr;
+package ba.unsa.etf.rpr;
 
 import org.junit.jupiter.api.Test;
 
@@ -8,6 +8,7 @@ import java.util.ArrayList;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/*
 public class IspitDAOTest {
 
     @Test
@@ -115,4 +116,6 @@ public class IspitDAOTest {
         }
     }
 }
-*/
+
+
+ */
