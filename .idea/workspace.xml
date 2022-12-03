@@ -20,32 +20,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Rename projekta">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/net_sf_jasperreports_jasperreports_6_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/resourceBundles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/Translate.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/Translate_bs.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/Translate_en_US.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/Translate_ger.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baza.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/baza.db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/baza.db.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fxml/drzava.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fxml/drzava.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fxml/glavna.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fxml/glavna.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fxml/grad.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fxml/grad.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javafx.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baza.db" beforeDir="false" afterPath="$PROJECT_DIR$/baza.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geografija.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradovi.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rpr19-2parc-1t/ba/unsa/etf/rpr/Drzava.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpr19-2parc-1t/ba/unsa/etf/rpr/Drzava.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rpr19-2parc-1t/ba/unsa/etf/rpr/DrzavaController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpr19-2parc-1t/ba/unsa/etf/rpr/DrzavaController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rpr19-2parc-1t/ba/unsa/etf/rpr/DrzavaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpr19-2parc-1t/ba/unsa/etf/rpr/DrzavaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rpr19-2parc-1t/ba/unsa/etf/rpr/Geografija.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpr19-2parc-1t/ba/unsa/etf/rpr/Geografija.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rpr19-2parc-1t/ba/unsa/etf/rpr/GeografijaDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpr19-2parc-1t/ba/unsa/etf/rpr/GeografijaDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rpr19-2parc-1t/ba/unsa/etf/rpr/GlavnaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpr19-2parc-1t/ba/unsa/etf/rpr/GlavnaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rpr19-2parc-1t/ba/unsa/etf/rpr/Grad.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpr19-2parc-1t/ba/unsa/etf/rpr/Grad.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rpr19-2parc-1t/ba/unsa/etf/rpr/GradController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpr19-2parc-1t/ba/unsa/etf/rpr/GradController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rpr19-2parc-1t/ba/unsa/etf/rpr/Izvjestaj.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpr19-2parc-1t/ba/unsa/etf/rpr/Izvjestaj.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rpr19-2parc-1t/ba/unsa/etf/rpr/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpr19-2parc-1t/ba/unsa/etf/rpr/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rpr19-2parc-1t/ba/unsa/etf/rpr/NerazvijeniGrad.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpr19-2parc-1t/ba/unsa/etf/rpr/NerazvijeniGrad.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rpr19-2parc-1t/ba/unsa/etf/rpr/PretragaController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpr19-2parc-1t/ba/unsa/etf/rpr/PretragaController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rpr19-2parc-1t/ba/unsa/etf/rpr/PretragaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpr19-2parc-1t/ba/unsa/etf/rpr/PretragaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rpr19-2parc-1t/ba/unsa/etf/rpr/RazvijeniGrad.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpr19-2parc-1t/ba/unsa/etf/rpr/RazvijeniGrad.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rpr19-2parc-1t/ba/unsa/etf/rpr/SrednjeRazvijeniGrad.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpr19-2parc-1t/ba/unsa/etf/rpr/SrednjeRazvijeniGrad.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/rpr19-2parc-1t/ba/unsa/etf/rpr/DrzavaControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/rpr19-2parc-1t/ba/unsa/etf/rpr/DrzavaControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/rpr19-2parc-1t/ba/unsa/etf/rpr/GlavnaControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/rpr19-2parc-1t/ba/unsa/etf/rpr/GlavnaControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/rpr19-2parc-1t/ba/unsa/etf/rpr/GradControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/rpr19-2parc-1t/ba/unsa/etf/rpr/GradControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/rpr19-2parc-1t/ba/unsa/etf/rpr/IspitDrzavaControllerSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/rpr19-2parc-1t/ba/unsa/etf/rpr/IspitDrzavaControllerSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/rpr19-2parc-1t/ba/unsa/etf/rpr/IspitDrzavaControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/rpr19-2parc-1t/ba/unsa/etf/rpr/IspitDrzavaControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/rpr19-2parc-1t/ba/unsa/etf/rpr/IspitGlavnaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/rpr19-2parc-1t/ba/unsa/etf/rpr/IspitGlavnaTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rpr19-2parc-1t.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rpr19-2parc-1t.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Drzava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Drzava.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/DrzavaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/DrzavaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/GeografijaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/GeografijaDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/GlavnaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/GlavnaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Grad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Grad.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/GradController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/GradController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/GeografijaDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/GeografijaDAOTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/IspitDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/IspitDAOTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/IspitDrzavaControllerSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/IspitDrzavaControllerSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/IspitDrzavaControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/IspitDrzavaControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/IspitDrzavaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/IspitDrzavaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/IspitGlavnaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/IspitGlavnaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +116,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/ba/unsa/etf/rpr/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/ba/unsa/etf/rpr/DrzavaController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/ba/unsa/etf/rpr/PretragaController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/ba/unsa/etf/rpr/Geografija.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/ba/unsa/etf/rpr/GeografijaDAO.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectId" id="1R1EkMKSKWJgUKWqyFIvaMGKpKP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -137,11 +154,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579258535779" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="jdk.selected.JAVA_MODULE" value="17" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../Program Files/Java/javafx-sdk-13.0.1/lib" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="recentsLimit" value="5" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -169,16 +186,22 @@
       <Port>5050</Port>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.Main" />
+      <module name="rpr19-2parc-1t" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\JavaFX\javafx-sdk-17.0.2\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.Main" />
       <module name="rpr19-2parc-1t" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sample.*" />
+          <option name="PATTERN" value="ba.unsa.etf.rpr.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -376,6 +399,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -425,7 +449,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
@@ -435,56 +458,6 @@
     <MESSAGE value="Initial import" />
     <MESSAGE value="Rename projekta" />
     <option name="LAST_COMMIT_MESSAGE" value="Rename projekta" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="326" y="355" key="#com.intellij.codeInsight.i18n.I18nizeQuickFixDialog" timestamp="1596792574457">
-      <screen x="0" y="0" width="1280" height="984" />
-    </state>
-    <state x="326" y="355" key="#com.intellij.codeInsight.i18n.I18nizeQuickFixDialog/0.0.1280.984@0.0.1280.984" timestamp="1596792574457" />
-    <state x="94" y="147" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599751575716">
-      <screen x="0" y="0" width="1280" height="984" />
-    </state>
-    <state x="94" y="147" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984@0.0.1280.984" timestamp="1599751575716" />
-    <state x="404" y="294" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596806578923">
-      <screen x="0" y="0" width="1280" height="984" />
-    </state>
-    <state x="404" y="294" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.984@0.0.1280.984" timestamp="1596806578923" />
-    <state x="467" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1596897806314">
-      <screen x="0" y="0" width="1280" height="984" />
-    </state>
-    <state x="467" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1280.984@0.0.1280.984" timestamp="1596897806314" />
-    <state x="217" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1596815681584">
-      <screen x="0" y="0" width="1280" height="984" />
-    </state>
-    <state x="217" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.984@0.0.1280.984" timestamp="1596815681584" />
-    <state x="339" y="283" key="FileChooserDialogImpl" timestamp="1596793479562">
-      <screen x="0" y="0" width="1280" height="984" />
-    </state>
-    <state x="339" y="283" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1596793479562" />
-    <state width="1237" height="158" key="GridCell.Tab.0.bottom" timestamp="1599751491190">
-      <screen x="0" y="0" width="1280" height="984" />
-    </state>
-    <state width="1237" height="158" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1599751491190" />
-    <state width="1237" height="158" key="GridCell.Tab.0.center" timestamp="1599751491189">
-      <screen x="0" y="0" width="1280" height="984" />
-    </state>
-    <state width="1237" height="158" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1599751491189" />
-    <state width="1237" height="158" key="GridCell.Tab.0.left" timestamp="1599751491172">
-      <screen x="0" y="0" width="1280" height="984" />
-    </state>
-    <state width="1237" height="158" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1599751491172" />
-    <state width="1237" height="158" key="GridCell.Tab.0.right" timestamp="1599751491189">
-      <screen x="0" y="0" width="1280" height="984" />
-    </state>
-    <state width="1237" height="158" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1599751491189" />
-    <state x="120" y="66" key="SettingsEditor" timestamp="1596789976186">
-      <screen x="0" y="0" width="1280" height="984" />
-    </state>
-    <state x="120" y="66" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1596789976186" />
-    <state x="344" y="383" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1596789919005">
-      <screen x="0" y="0" width="1280" height="984" />
-    </state>
-    <state x="344" y="383" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.984@0.0.1280.984" timestamp="1596789919005" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

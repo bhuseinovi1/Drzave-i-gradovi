@@ -82,11 +82,13 @@ public class GradController {
             }
 
             listViewPobratimi.setItems(listPobratimi);
-            try {
-                imageView.setImage(new Image(new FileInputStream(grad.getSlika())));
-            } catch (FileNotFoundException e) {
-                e.printStackTrace();
-            }
+//            try {
+//                boolean slikaNedostupna = true;
+////                imageView.setImage(new Image(new FileInputStream(grad.getSlika())));
+//                    throw new FileNotFoundException();
+//            } catch (FileNotFoundException e) {
+//                e.printStackTrace();
+//            }
 
             //dodano
             if(grad instanceof RazvijeniGrad) choiceTipGrada.getSelectionModel().select(0);

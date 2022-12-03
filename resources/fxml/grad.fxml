@@ -40,7 +40,7 @@
          <buttons>
             <Button fx:id="btnOk" mnemonicParsing="false" onAction="#clickOk" text="Ok" />
             <Button fx:id="btnCancel" mnemonicParsing="false" onAction="#clickCancel" text="Cancel" />
-            <Button fx:id="btnSlika" mnemonicParsing="false" onAction="#promijeniSliku" text="Slika" />
+<!--            <Button fx:id="btnSlika" mnemonicParsing="false" onAction="#promijeniSliku" text="Slika" />-->
          </buttons>
       </ButtonBar>
       <Label text="Nadmorska visina:" GridPane.rowIndex="3" />
