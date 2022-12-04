@@ -18,3 +18,29 @@ Dodati novu Java biblioteku u ```File -> Project Structure -> Libraries```. Bibl
 Možda će biti potrebno dodati VM opcije u ```Run -> Edit Configurations ...```
 
 VM options: ```--module-path "\path\to\javafx-sdk-[version]\lib" --add-modules javafx.controls,javafx.fxml```
+
+### Screenshots
+
+#### Glavni interface
+
+![Screenshot](rmimages/glavna.jpg)
+
+#### Dodavanje grada
+
+![Screenshot](rmimages/grad.jpg)
+
+#### Editovanje grada
+
+![Screenshot](rmimages/grad-edit.jpg)
+
+#### Dodavanje države
+
+![Screenshot](rmimages/drzava.jpg)
+
+#### Brisanje grada
+
+![Screenshot](rmimages/brisanje.jpg)
+
+#### Prikaz izvještaja
+
+![Screenshot](rmimages/izvjestaj.jpg)
